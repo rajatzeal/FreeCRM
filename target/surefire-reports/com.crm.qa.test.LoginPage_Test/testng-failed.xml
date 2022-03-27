@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.crm.qa.ExtentReport.ExtentReporterNG"/>
-    <listener class-name="com.crm.qa.retryAnalyzer.MyTransformer"/>
-  </listeners>
-  <test name="Test(failed)">
-    <parameter name="url" value="httsps://www.google.com"/>
+<suite name="Failed suite [com.crm.qa.test.LoginPage_Test]" verbose="0">
+  <test name="Command line test(failed)">
     <classes>
       <class name="com.crm.qa.test.LoginPage_Test">
         <methods>
@@ -16,5 +11,5 @@
         </methods>
       </class> <!-- com.crm.qa.test.LoginPage_Test -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.crm.qa.test.LoginPage_Test] -->

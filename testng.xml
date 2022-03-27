@@ -4,6 +4,7 @@
 
 	<listeners>
 			<listener class-name="com.crm.qa.ExtentReport.ExtentReporterNG"/>
+			<listener class-name="com.crm.qa.retryAnalyzer.MyTransformer"/>
 	</listeners>
 
   <test name="Test">

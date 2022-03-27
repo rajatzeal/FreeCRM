@@ -1,4 +1,4 @@
-com\crm\qa\pages\LoginPage.class
-com\crm\qa\base\BaseClass.class
 com\crm\qa\pages\HomePage.class
 com\qa\crm\utils\Utility.class
+com\crm\qa\pages\LoginPage.class
+com\crm\qa\base\BaseClass.class
